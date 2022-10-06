@@ -1,7 +1,7 @@
 body.body1 {
     background-image: url("https://sedeno.es/wp-content/uploads/2021/11/sedeno_logo_original.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     color: white;
     text-align-last: center;
 }
