@@ -1,6 +1,6 @@
 <?php
 $ip = $_SERVER['REMOTE_ADDR'];
-$name = $_GET['name'];
+$name = $_POST['name'];
 
 ?>
 
