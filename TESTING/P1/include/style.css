@@ -3,6 +3,7 @@ body.body1 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-clip: content-box;
+    background-size: 100% 100%;
     color: white;
     text-align-last: center;
 }
