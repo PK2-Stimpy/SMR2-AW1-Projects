@@ -1,3 +1,5 @@
 <?php
-echo('<h1>HOLA MUNDO</h1>');
+$name = $_GET['name'];
+
+echo("Hola! Tu nombre es: $name");
 ?>
