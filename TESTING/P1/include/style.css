@@ -3,6 +3,10 @@ body.body1 {
     color: white;
 }
 
+h1 {
+    color:aquamarine;
+}
+
 h1.XD {
     color: blue;
 }
