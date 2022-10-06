@@ -10,6 +10,9 @@ body.body1 {
 
 h1 {
     color:aquamarine;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2px;
 }
 
 h1.XD {
