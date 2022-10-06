@@ -13,8 +13,11 @@ $name = $_GET['name'];
 <body>
     <center>
         <h1>SEDEÑO BUSCA ESPOSO</h1>
-        <h3>El esposo que busca se llama: <?php echo($name); ?>. Y su ip es: <?php echo($ip); ?></h3>
-        <h4>ESPERA! Eres tu? Sedeño te está buscando! Corre y dale un morreo!</h4>
+        <h3>El esposo que busca se llama: <?php echo($name); ?>.</h3>
+        <?php
+            if($name == "Daniel%20Pascual")
+                echo("<h4>ESPERA! Eres tu? Sedeño te está buscando! Corre y dale un morreo!</h4>");
+        ?>
     </center>
 </body>
 </html>
