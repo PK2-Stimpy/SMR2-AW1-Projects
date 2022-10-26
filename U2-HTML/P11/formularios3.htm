@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Fernando Javier">
+    <meta name="description" content="Formularios3 AW1 P11">
+    <meta name="keywords" content="formularios, 3, aw1, p11, ies, la, mola, práctica">
+
+    <title>Formularios 3</title>
+</head>
+<body>
+    <form>
+        <label for="usuario">Usuario: </label>
+        <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+
+        <br>
+
+        <label for="direccion">Dirección: </label>
+        <input type="text" name="direccion" id="direccion" placeholder="Dirección" required>
+
+        <br>
+
+        <label for="cuentab">Nº Cuenta bancaria: </label>
+        <input type="text" name="cuentab" id="cuentab" placeholder="ES6621000418401234567891" required>
+
+        <br>
+
+        <label for="tarifa">Tarifa: </label>
+        <select name="tarifa" id="tarifa" required>
+            <option value="joven">Tarifa Joven</option>
+            <option value="senior">Tarifa Sénior</option>
+            <option value="plana_superior">Tarifa Plana Superior</option>
+        </select>
+
+        <br>
+
+        <label for="fcomienzo">Fecha comienzo: </label>
+        <input type="date" name="fcomienzo" id="fcomienzo" required>
+
+        <br>
+
+        <label for="sms_si">Notificaciones por SMS: </label>
+
+        <input type="radio" name="sms" id="sms_si" value="si">
+        <label for="sms_si">Sí</label>
+
+        <input type="radio" name="sms" id="sms_no" value="no">
+        <label for="sms_no">No</label>
+
+        <br>
+
+        <input type="submit" value="Contratar">
+        <input type="reset" value="Restablecer">
+    </form>
+</body>
+</html>
