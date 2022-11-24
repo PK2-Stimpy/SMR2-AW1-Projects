@@ -3,6 +3,10 @@ body {
     background-color: black;
 }
 
+.pagetitle {
+    font-size: 50px;
+}
+
 .centered {
     text-align: center;
 }
