@@ -23,7 +23,7 @@ body {
 }
 
 .desc {
-    color: beige;
+    color: rgb(255, 255, 238);
     text-indent: 30px;
     line-height: 7px;
 }
