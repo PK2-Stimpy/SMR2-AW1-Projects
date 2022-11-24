@@ -35,3 +35,8 @@ body {
 b {
     color: rgb(255, 255, 203);
 }
+
+.tablechar {
+    margin-left: 60px;
+    line-height: 12px;
+}
