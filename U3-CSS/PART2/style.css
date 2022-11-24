@@ -23,10 +23,7 @@ body {
 }
 
 .desc {
+    color: beige;
     text-indent: 30px;
     line-height: 7px;
-}
-
-b .desc {
-    color: beige;
 }
