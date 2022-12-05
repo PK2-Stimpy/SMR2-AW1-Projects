@@ -32,6 +32,12 @@ body {
     line-height: 7px;
 }
 
+.desc2 {
+    border-style: dotted;
+    border-color: blue;
+    margin-left: 30px;
+}
+
 b {
     color: rgb(255, 255, 203);
 }
