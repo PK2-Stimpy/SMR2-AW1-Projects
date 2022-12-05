@@ -36,7 +36,7 @@ body {
     border-style: dotted;
     border-color: blue;
     margin-left: 30px;
-    width: fit-content;
+    width: fit-content+30px;
     block-size: fit-content;
 }
 
