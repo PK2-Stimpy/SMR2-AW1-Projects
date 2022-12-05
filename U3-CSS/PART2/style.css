@@ -29,7 +29,11 @@ body {
 .desc {
     color: rgb(255, 255, 238);
     text-indent: 30px;
-    line-height: 7px;
+    /*line-height: 7px;*/
+}
+
+p {
+    margin-bottom: 30px;
 }
 
 .desc2 {
