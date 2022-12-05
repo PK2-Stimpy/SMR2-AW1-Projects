@@ -35,9 +35,11 @@ body {
 .desc2 {
     border-style: dotted;
     border-color: blue;
-    /*margin-left: 30px;*/
+    margin-left: 50px;
     width: fit-content;
     block-size: fit-content;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 b {
