@@ -3,6 +3,10 @@ body {
     background-color: black;
 }
 
+code {
+    color: firebrick;
+}
+
 .pagetitle {
     font-size: 50px;
 }
