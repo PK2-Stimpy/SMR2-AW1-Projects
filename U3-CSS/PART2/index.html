@@ -216,7 +216,7 @@
             <p><del>This text is &lt;del&gt;</del></p>
             <p><em>This text is &lt;em&gt;</em></p>
             <p><dfn>This text is &lt;dfn&gt;</dfn></p>
-            <p><code>This text is &lt;code&gt;</code></p>
+            <p><code class="nohighlight">This text is &lt;code&gt;</code></p>
             <p><samp>This text is &lt;samp&gt;</samp></p>
             <p><kdb>This text is &lt;kdb&gt;</kdb></p>
             <p><var>This text is &lt;var&gt;</var></p>
@@ -266,7 +266,7 @@
     <h2 class="title2">1.5. Styling</h2>
     <div class="desc">
         <p>We can add some inline CSS Styling to our object by adding a <b>style</b> parameter:</p>
-        <p>Example: <code>&lt;p style="color:black;"&gt;TEXT&lt;/p&gt;</code></p>
+        <p>Example: <code class="language-html">&lt;p style="color:black;"&gt;TEXT&lt;/p&gt;</code></p>
 
         <br>
 
@@ -499,15 +499,17 @@
     <p class="desc">CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
     
     <h2 class="title2">2.1. Introduction</h2>
-    <p>This is a example style to make a paragraph red with the background color black.</p>
-    <pre>
-        <code class="language-css">
-            p {
-                color: red;
-                background-color: black;
-            }
-        </code>
-    </pre>
+    <div class="desc">
+        <p>This is a example style to make a paragraph red with the background color black.</p>
+        <pre>
+            <code class="language-css">
+                p {
+                    color: red;
+                    background-color: black;
+                }
+            </code>
+        </pre>
+    </div>
 
     <hr>
 </body>
