@@ -72,3 +72,8 @@ b {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.language-css {
+    width: 200px;
+    padding-left: 20px;
+}
