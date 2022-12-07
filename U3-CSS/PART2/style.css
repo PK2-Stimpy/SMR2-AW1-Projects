@@ -1,6 +1,9 @@
 body {
     color: white;
-    background-color: black;
+    /*background-color: black;*/
+    background-image: url('https://cdn.discordapp.com/attachments/810574931946766367/1050001881793044530/image.png');
+    background-repeat: no-repeat;
+    background-clip: content-box;
 }
 
 code {
