@@ -432,6 +432,59 @@
             <iframe width="200" height="200" src="https://www.youtube.com/embed/9soMJzu74fw">Could not load iframe.</iframe>
         </div>
     </div>
+
+    <h2 class="title2">1.10. Forms</h2>
+    <div class="desc">
+        <p>&lt;form&gt; is for making a form, it contains &lt;input&gt; and &lt;label&gt;</p>
+        <p>The parameters for &lt;form&gt; are method, that can be GET or POST; target that can be _self or _blank; action that is a url; and autocomplete that can be on or off.</p>
+        <p>The parameters for input are type, value, placeholder, required, name and id.</p>
+
+        <br>
+
+        <p>The type parameter for input can be:</p>
+        <div class="desc2">
+            <ul>
+                <li>button</li>
+                <li>checkbox</li>
+                <li>color</li>
+                <li>date</li>
+                <li>datetime-local</li>
+                <li>email</li>
+                <li>file</li>
+                <li>hidden</li>
+                <li>image</li>
+                <li>month</li>
+                <li>number</li>
+                <li>password</li>
+                <li>radio</li>
+                <li>range</li>
+                <li>reset</li>
+                <li>search</li>
+                <li>submit</li>
+                <li>tel</li>
+                <li>text</li>
+                <li>time</li>
+                <li>url</li>
+                <li>week</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <p>They all have common attributes like autocomplete, autofocus, disabled, form, list and name.</p>
+
+        <br>
+
+        <p>Example form:</p>
+        <div class="desc2">
+            <p>Search on Google</p>
+            <form method="GET" action="https://google.com/search">
+                <label for="q">Search:</label>
+                <input type="text" placeholder="Type something to search!" id="q" name="q">
+                <input type="submit" value="Search!">
+            </form>
+        </div>
+    </div>
     <hr>
 </body>
 </html>
