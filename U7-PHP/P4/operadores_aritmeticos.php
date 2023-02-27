@@ -23,6 +23,15 @@
         echo("provincia = $provincia " . gettype($provincia) . "<br>");
         echo("graduado = $graduado " . gettype($graduado) . "<br>");
 
+        echo("La variable nombre " . (is_numeric($nombre)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable edad " . (is_numeric($edad)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable casado " . (is_numeric($casado)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable nota " . (is_numeric($nota)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable aficiones " . (is_numeric($aficiones)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable apellidos " . (is_numeric($apellidos)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable provincia " . (is_numeric($provincia)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable graduado " . (is_numeric($graduado)?'es numérica.':'no es numérica') . '<br>');
+
         define("Vr_0", 0.42215773311582662702); // Volumen del Tetraedro de Reuleaux
         define("Vc_0", 1.26408473530530111307); // Constante de Vardi
         define("AfM_0", 1.5065918849); // Área del fractal de Mandelbrot
@@ -70,12 +79,18 @@
         echo constant('q_1');
         echo '<br>';
 
-        // P4 \\
-        $celiaco = false;
-        $lactosa = true;
+        // Restaurante
+        $precio_menu = 5.43;
+        $comensales = 5;
+        $descuento = 10;
 
-        echo "Menus: <br>";
-        echo ""
+        $descuento_menu = $precio_menu/$descuento;
+        $total_menu = $precio_menu-$descuento_menu;
+        $total = $total_menu*$comensales;
+
+        echo('El precio del menú es ' . $precio_menu . '€<br>');
+        echo('El descuento por menú es de ' . $descuento_menu . '€<br>');
+        echo('El total calculado para el número de comensales es de ' . $total . '€<br>');
         ?>
     </body>
 </html>
