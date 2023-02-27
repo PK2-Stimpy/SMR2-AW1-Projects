@@ -5,6 +5,24 @@
 
     <body>
         <?php
+        $nombre = "Nacho";
+        $edad = 20;
+        $casado = false;
+        $nota = 7.8;
+        $aficiones = ['correr', 'leer'];
+        $apellidos = "pérez pérez";
+        $provincia = "Valencia";
+        $graduado = true;
+
+        echo("nombre = $nombre " . gettype($nombre) . "<br>");
+        echo("edad = $edad " . gettype($edad) . "<br>");
+        echo("casado = $casado " . gettype($casado) . "<br>");
+        echo("nota = $nota " . gettype($nota) . "<br>");
+        echo("aficiones = $aficiones " . gettype($aficiones) . "<br>");
+        echo("apellidos = $apellidos " . gettype($apellidos) . "<br>");
+        echo("provincia = $provincia " . gettype($provincia) . "<br>");
+        echo("graduado = $graduado " . gettype($graduado) . "<br>");
+
         define("Vr_0", 0.42215773311582662702); // Volumen del Tetraedro de Reuleaux
         define("Vc_0", 1.26408473530530111307); // Constante de Vardi
         define("AfM_0", 1.5065918849); // Área del fractal de Mandelbrot
