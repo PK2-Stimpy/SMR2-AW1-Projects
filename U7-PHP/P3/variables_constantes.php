@@ -23,6 +23,15 @@
         echo("provincia = $provincia " . gettype($provincia) . "<br>");
         echo("graduado = $graduado " . gettype($graduado) . "<br>");
 
+        echo("La variable nombre " . (is_numeric($nombre)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable edad " . (is_numeric($edad)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable casado " . (is_numeric($casado)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable nota " . (is_numeric($nota)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable aficiones " . (is_numeric($aficiones)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable apellidos " . (is_numeric($apellidos)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable provincia " . (is_numeric($provincia)?'es numérica.':'no es numérica') . '<br>');
+        echo("La variable graduado " . (is_numeric($graduado)?'es numérica.':'no es numérica') . '<br>');
+
         define("Vr_0", 0.42215773311582662702); // Volumen del Tetraedro de Reuleaux
         define("Vc_0", 1.26408473530530111307); // Constante de Vardi
         define("AfM_0", 1.5065918849); // Área del fractal de Mandelbrot
