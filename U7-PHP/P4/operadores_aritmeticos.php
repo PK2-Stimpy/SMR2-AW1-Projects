@@ -97,7 +97,7 @@
         $total_menu = $precio_menu*$descuento_ninios;
         $total = $total_menu*$ninios;
 
-        echo("El total calculado para el menú de los niños es de $total €.");
+        echo("El total calculado para el menú de los niños es de $total €.<br>");
 
         $celiaco = false;
         $lactosa = true;
