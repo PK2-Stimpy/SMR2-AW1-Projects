@@ -7,7 +7,7 @@
         <?php
         // Este programa permite mostrar un nombre y apellidos en diferentes colores
         echo"<font color='red'>Fernando Javier</font> <br>";
-        echo"<font color='gray'>García Hurtado</font>";
+        echo"<font color='gray'>García Hurtado</font> <br>";
 
         // En este paso imprimiremos
         // el curso y el grupo
