@@ -17,7 +17,35 @@
         const S1_0 = 1.09317045919549089396;
         const q_0 = 1.78723165018296593301;
 
-        echo'Vr_0 = $Vr_0';
+        // Vr
+        echo 'Vr = ';
+        echo Vr_0;
+        echo ' & ';
+        echo constant('Vr_1');
+
+        // Vc
+        echo 'Vc = ';
+        echo Vc_0;
+        echo ' & ';
+        echo constant('Vc_1');
+
+        // AfM
+        echo 'AfM = ';
+        echo AfM_0;
+        echo ' & ';
+        echo constant('AfM_1');
+
+        // S1
+        echo 'S1 = ';
+        echo S1_0;
+        echo ' & ';
+        echo constant('S1_1');
+
+        // q
+        echo 'q = ';
+        echo q_0;
+        echo ' & ';
+        echo constant('q_1');
         ?>
     </body>
 </html>
