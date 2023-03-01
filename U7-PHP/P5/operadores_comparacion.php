@@ -19,6 +19,10 @@
         $indicadores = 13;
         $filtro = 12;
         echo("El resultado de las operaciones and con los indicadores y el filtro es: " . ($indicadores & $filtro) . '<br>');
+
+        echo("El resultado de 'diarias + operaciones semanales / operaciones máximas semanales' es: " . ($operaciones_diarias+$operaciones_semanales/operaciones_max_semanales) . '<br>');
+        echo("El resultado de 'semanales / operaciones máximas semanales * indicadores' es: " . ($operaciones_semanales / operaciones_max_semanales * $indicadores) . '<br>');
+        echo("El resultado de 'semanales != operaciones máximas semanales | indicadores' es: " . ($operaciones_semanales != operaciones_max_semanales | $indicadores) . '<br>');
         ?>
     </body>
 </html>
