@@ -6,7 +6,7 @@
     <body>
         <?php
         $velocidad = 200;
-        $aceleracion = 1;
+        $aceleracion = 40;
         $altura = 105;
 
         const GRAVITACIONAL = 6.674e11;
