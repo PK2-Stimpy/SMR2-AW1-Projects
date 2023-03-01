@@ -5,6 +5,7 @@
 
     <body>
         <?php
+        echo"<h1>PAR</h1>";
         $contador = 0;
         while($contador <= 50) {
             $contador++;
@@ -12,6 +13,7 @@
                 echo($contador . "<br>");
         }
 
+        echo"<h1>IMPAR</h1>";
         $contador = 0;
         do {
             $contador++;
