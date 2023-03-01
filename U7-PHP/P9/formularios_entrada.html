@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Red Social</title>
+    </head>
+
+    <body>
+        <form action="formularios_entrada.php" method="POST">
+            Usuario: <input type="text" name="usuario" maxlength="10"> <br>
+            Contraseña: <input type="text" name="password" maxlength="8"> <br>
+            Tratamiento: 
+                <input type="radio" name="tratamiento" value="Sr">Sr
+                <input type="radio" name="tratamiento" value="Sra">Sra
+                <input type="radio" name="tratamiento" value="Srta">Srta <br>
+            Nombre: <input type="text" name="nombre" maxlength="20"> <br>
+            Apellidos: <input type="tel" name="apellidos" maxlength="40"> <br>
+            Edad:
+                <input type="radio" name="edad" value="0-10">0-10
+                <input type="radio" name="edad" value="11-30">11-30
+                <input type="radio" name="edad" value="31-50">31-50
+                <input type="radio" name="edad" value="50+">50+ <br>
+            Tipo de cuenta:
+                <input type="radio" name="tipo" value="Normal">Normal
+                <input type="radio" name="tipo" value="Premium">Premium <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
