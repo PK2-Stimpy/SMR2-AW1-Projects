@@ -14,7 +14,7 @@
         echo("¿El valor de operaciones diarias es mayor igual que el máximo? " . ($operaciones_diarias >= operaciones_max_diarias ? 'Sí':'No') . '<br>');
         echo("¿El valor de operaciones semanales es mayor igual que el máximo? " . ($operaciones_semanales >= operaciones_max_semanales ? 'Sí':'No') . '<br>');
         echo("¿El valor de operaciones diarias es exactamente igual al máximo? " . ($operaciones_diarias == operaciones_max_diarias ? 'Sí':'No') . '<br>');
-        echo("¿El valor de operaciones diarias es distinto al de operaciones semanales? " . ($operaciones_diarias != operaciones_semanales ? 'Sí':'No') . '<br>');
+        echo("¿El valor de operaciones diarias es distinto al de operaciones semanales? " . ($operaciones_diarias != operaciones_max_semanales ? 'Sí':'No') . '<br>');
         ?>
     </body>
 </html>
