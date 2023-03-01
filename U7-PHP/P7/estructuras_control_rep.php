@@ -25,9 +25,11 @@
         $contador = 0;
         $suma = 0;
 
-        for($contador = 1; $contador <= 100; $contador++)
+        for($contador = 1; $contador <= 100; $contador++) {
+            echo($contador . "<br>");
             $suma+=$contador;
-        echo("Resultado: $contador");
+        }
+        echo("Resultado: $suma<br>");
         ?>
     </body>
 </html>
