@@ -5,7 +5,7 @@
 
     <body>
         <?php
-        $velocidad = 100;
+        $velocidad = 400;
         $aceleracion = 40;
         $altura = 105;
 
