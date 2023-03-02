@@ -59,9 +59,12 @@
             echo "Vehículo: Helicóptero apache de combate <br>";
         echo "Descripción grupos: $descripcion <br>";
 
-        print_r($_POST['idiomas']);
-        echo'<br>';
-        echo($_POST['mensajes'] . '<br>');
+        $idiomas_noticias = $_POST['idiomas'];
+        $mensajes_portada = $_POST['mensajes'];
+        for($i = 0; $i < count($idiomas_noticias); $i++)
+            echo("Idioma de noticia: " . $idiomas_noticias[$i]);
+        
+        echo("Mensajes portada: $mensajes_portada <br>");
         ?>
     </body>
 </html>
