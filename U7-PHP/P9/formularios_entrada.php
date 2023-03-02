@@ -57,9 +57,10 @@
             echo "Vehículo: Bicicleta <br>";
         if(!empty($vehiculo_helicopteroapache))
             echo "Vehículo: Helicóptero apache de combate <br>";
-        echo "Descripción grupos: $descripcion";
+        echo "Descripción grupos: $descripcion <br>";
 
-        echo($_POST['idiomas'] . '<br>');
+        print_r($_POST['idiomas']);
+        echo'<br>';
         echo($_POST['mensajes'] . '<br>');
         ?>
     </body>
