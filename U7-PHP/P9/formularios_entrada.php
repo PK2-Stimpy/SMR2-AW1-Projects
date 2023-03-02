@@ -58,6 +58,9 @@
         if(!empty($vehiculo_helicopteroapache))
             echo "Vehículo: Helicóptero apache de combate <br>";
         echo "Descripción grupos: $descripcion";
+
+        echo($_POST['idiomas'] . '<br>');
+        echo($_POST['mensajes'] . '<br>');
         ?>
     </body>
 </html>
