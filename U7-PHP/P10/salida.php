@@ -17,7 +17,6 @@
             $texto_monitor = sprintf("Se ha seleccionado el monitor de %s <br>", $monitor);
             $texto_teclado = sprintf("Se ha seleccionado el teclado de %s <br>", $teclado);
             $texto_raton = sprintf("Se ha seleccionado el ratón de %s <br>", $raton);
-            $texto_impresora = sprintf("Se ha seleccionado la impresora de %s <br>", $impresora);
 
             printf("Se ha seleccionado la CPU de %s <br>", $cpu);
             printf("Se ha seleccionado la RAMA de %s <br>", $ram);
@@ -25,7 +24,7 @@
             print $texto_monitor;
             print $texto_teclado;
             print $texto_raton;
-            print $texto_impresora;
+            echo "Se ha seleccionado la impresora de $impresora <br>";
         ?>
     </body>
 </html>
