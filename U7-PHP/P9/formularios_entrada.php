@@ -62,7 +62,7 @@
         $idiomas_noticias = $_POST['idiomas'];
         $mensajes_portada = $_POST['mensajes'];
         for($i = 0; $i < count($idiomas_noticias); $i++)
-            echo("Idioma de noticia: " . $idiomas_noticias[$i]);
+            echo("Idioma de noticia: " . $idiomas_noticias[$i] . '<br>');
         
         echo("Mensajes portada: $mensajes_portada <br>");
         ?>
