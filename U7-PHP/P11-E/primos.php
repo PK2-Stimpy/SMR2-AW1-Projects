@@ -6,7 +6,7 @@
 
     <body>
         <?php
-        const MAX_PRIMOS = 500;
+        const MAX_PRIMOS = 50;
         $primos = array('2');
         $num = $primos[count($primos) - 1];
         $isp = true;
