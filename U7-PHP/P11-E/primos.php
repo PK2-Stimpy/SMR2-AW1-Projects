@@ -11,7 +11,7 @@
         $num = $primos[count($primos) - 1];
         $isp = true;
         
-        while(count($primos) < 50) {
+        while(count($primos) < MAX_PRIMOS) {
             $arrCount = count($primos);
             $num++;
 
