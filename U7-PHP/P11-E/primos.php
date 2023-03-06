@@ -16,7 +16,7 @@
             $num++;
 
             for($i = 0,$isp=true; $i < $arrCount; $i++)
-                if($num % $primos[$i])
+                if($num % $primos[$i] == 0)
                     $isp = false;
             if($isp)
                 $primos[$arrCount] = $num;
