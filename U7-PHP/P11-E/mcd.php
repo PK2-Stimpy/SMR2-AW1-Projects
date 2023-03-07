@@ -8,7 +8,7 @@
         <?php
         const NUM_1 = 66;
         const NUM_2 = 980;
-        echo "NUM_1: " . NUM_1 . "; NUM_2: " . NUM_2 . "<br>";
+        echo("NUM_1: " . NUM_1 . "; NUM_2: " . NUM_2 . "<br>");
         
         $min = NUM_1, $max = NUM_2;
         if(NUM_1 > NUM_2)
