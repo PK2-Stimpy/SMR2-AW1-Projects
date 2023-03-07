@@ -6,8 +6,8 @@
 
     <body>
         <?php
-        const NUM_1 = 66;
-        const NUM_2 = 980;
+        const NUM_1 = 1928;
+        const NUM_2 = 3856;
         echo("NUM_1: " . NUM_1 . "; NUM_2: " . NUM_2 . "<br>");
         
         $min = NUM_1;
