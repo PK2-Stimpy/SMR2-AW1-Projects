@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Máximo común divisor</title>
+        <title>Máximo común divisor con 2 números</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     </head>
 
