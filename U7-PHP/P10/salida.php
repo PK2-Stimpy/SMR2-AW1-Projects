@@ -14,8 +14,8 @@
             printf("Se ha seleccionado la CPU de %s <br>", $cpu);
             printf("Se ha seleccionado la RAMA de %s <br>", $ram);
             printf("Se ha seleccionado el disco de %s <br>", $disco);
-            foreach($extras as $extra)
-                printf("Extra seleccionado %s<br>", $extra);
+            for($i = 0; $i < count($extras); $i++)
+                printf("Extra seleccionado %s<br>", $extras[$i]);
         ?>
     </body>
 </html>
