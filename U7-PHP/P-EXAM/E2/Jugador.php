@@ -17,7 +17,7 @@
             $pos=="Base" ?      "red" : (   // Si es Base
             $pos=="Altero" ?    "blue" :    // Si es Altero
                                 "green"));  // Si es Pivot
-        echo "<div color=\"$color\">";
+        echo "<div style='color: \"$color\";'>";
 
         echo "<p><b>Nombre:</b> $nombre</p>";
         echo "<p><b>Apellidos:</b> $apellidos</p>";
