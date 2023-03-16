@@ -96,7 +96,7 @@
                     if($num % $primos[$i] == 0)
                         $primo = false;
                 if($primo) {
-                    $primos[$countPrimos+1] = $num;
+                    $primos[$countPrimos] = $num;
                     if($num >= $mcd)
                         $primos[$countPrimos2] = $num;
                 }
