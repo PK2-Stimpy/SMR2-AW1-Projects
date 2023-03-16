@@ -87,16 +87,14 @@
             
             while($primos[count($primos)-1] < $max) {
                 $countPrimos = count($primos);
-                $countPrimos2 = count($primosMCD);
                 $primo = true;
                 $num++;
 
                 for($i = 0; $i < count($primos); $i++)
                     if($num % $primos[$i] == 0)
                         $primo = false;
-                if($primo) {
+                if($primo)
                     $primos[$countPrimos] = $num;
-                }
             }
 
             echo "<p>Primos a partir de $mcd hasta $max:</p>";
