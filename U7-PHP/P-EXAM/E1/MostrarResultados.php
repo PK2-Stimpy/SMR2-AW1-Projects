@@ -98,8 +98,10 @@
             }
 
             echo "<p>Primos a partir de $mcd hasta $max:</p>";
-            foreach ($primos as $primo)
-                echo "<p>- $primo</p>";
+            foreach ($primos as $primo) {
+                if($primo >= $mcd)
+                    echo "<p>- $primo</p>";
+            }
         }
 
         if(!empty($_POST['operacion2'])) {
