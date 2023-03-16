@@ -99,7 +99,7 @@
 
             echo "<p>Primos a partir de $mcd hasta $max:</p>";
             foreach ($primos as $primo) {
-                if($primo >= $mcd)
+                if($primo >= $mcd && $primo <= $max)
                     echo "<p>- $primo</p>";
             }
         }
