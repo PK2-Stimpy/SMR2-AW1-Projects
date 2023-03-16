@@ -18,6 +18,11 @@
         //  he puesto, pero, 1 punto es 1 punto.
         //  - "Hasta 1 punto por un código comentado con detalle."
         //
+        // Por cierto, no se si has visto que más adelante
+        //  hay algunas condiciones que directamente no le
+        //  pongo los {}, eso es porque no hace falta, ya
+        //  que, solo es una línea de código.
+        //
         // Primero obtenemos los 2 números del formulario.
         // Ya que el formulario le hemos especificado que
         //  use el método POST, uso la array de $_POST.
