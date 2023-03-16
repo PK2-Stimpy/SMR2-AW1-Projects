@@ -83,7 +83,6 @@
 
             // Casi se me olvida, los números primos xddddd
             $primos = array(2);
-            $primosMCD = array();
             $num = $primos[count($primos)-1];
             
             while($primos[count($primos)-1] < $max) {
@@ -95,11 +94,8 @@
                 for($i = 0; $i < count($primos); $i++)
                     if($num % $primos[$i] == 0)
                         $primo = false;
-                if($primo) {
+                if($primo)
                     $primos[$countPrimos] = $num;
-                    if($num >= $mcd)
-                        $primos[$countPrimos2] = $num;
-                }
             }
 
             echo "<p>Primos a partir de $mcd hasta $max:</p>";
