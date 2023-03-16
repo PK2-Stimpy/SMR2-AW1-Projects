@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Ejercicio 2</title>
+        
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+
+    <body>
+        <h1>Ejercicio 2</h1>
+        <p>Rellena la siguiente información sobre el jugador:</p>
+
+        <br>
+        <form action="Jugador.php" method="POST">
+            Nombre: <input type="text" name="nombre"> <br>
+            Apellidos: <input type="text" name="apellidos"> <br>
+            Posición: <br>
+                <input type="radio" name="pos" value="Base"> Base<br>
+                <input type="radio" name="pos" value="Altero"> Altero<br>
+                <input type="radio" name="pos" value="Pivot"> Pivot<br><br>
+            
+            Equipo: <br>
+            <select name="equipo">
+                <option value="Real Madrid">Real Madrid</option>
+                <option value="F.C. Barcelona">F.C. Barcelona</option>
+                <option value="C.B. Jorge Juan">C.B. Jorge Juan</option>
+            </select>
+        </form>
+    </body>
+</html>
