@@ -103,7 +103,7 @@
             }
 
             echo "<p>Primos a partir de $mcd hasta $max:</p>";
-            foreach ($primosMCD as $primo)
+            foreach ($primos as $primo)
                 echo "<p>- $primo</p>";
         }
 
