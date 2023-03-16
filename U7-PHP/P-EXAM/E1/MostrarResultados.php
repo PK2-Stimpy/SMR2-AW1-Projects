@@ -80,6 +80,31 @@
             //    de control y de formas de mostrar los datos en pantalla."
             echo "<p>El MCD de los números $x1 y $x2 es: $mcd</p>";
             printf("<p>El número más grande de entre los números $x1 y $x2 es: $max</p>");
+
+            // Casi se me olvida, los números primos xddddd
+            $primos = array(2);
+            $primosMCD = array();
+            $num = $primos[count($primos)-1];
+            
+            while($primos[count($primos)-1] < $max) {
+                $countPrimos = count($primos);
+                $countPrimos2 = count($primosMCD);
+                $primo = true;
+                $num++;
+
+                for($i = $primos[0]; $i <= count($primos); $i++)
+                    if($num % $primos[$i] == 0)
+                        $primo = false;
+                if($primo) {
+                    $primos[$countPrimos+1] = $num;
+                    if($num >= $mcd)
+                        $primos[$countPrimos2] = $num;
+                }
+            }
+
+            echo "<p>Primos a partir de $mcd hasta $max:</p>";
+            foreach ($primosMCD as $primo)
+                echo "<p>- $primo</p>";
         }
 
         if(!empty($_POST['operacion2'])) {
