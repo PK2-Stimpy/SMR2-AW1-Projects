@@ -6,23 +6,21 @@
     </head>
 
     <body>
-        <center>
-            <h1>Ejercicio 1</h1>
-            <p>Introduce 2 números enteros:</p>
+        <h1>Ejercicio 1</h1>
+        <p>Introduce 2 números enteros:</p>
+
+        <br>
+        <form action="MostrarResultados.php" method="POST">
+            Número 1: <input type="number" name="num1" value="1"> <br>
+            Número 2: <input type="number" name="num2" value="1"> <br>
 
             <br>
-            <form action="MostrarResultados.php" method="POST">
-                Número 1: <input type="number" name="num1" value="1"> <br>
-                Número 2: <input type="number" name="num2" value="1"> <br>
+            <b>Operación:</b> <br>
+            <input type="checkbox" name="operacion1"> M.C.D y el más grande <br>
+            <input type="checkbox" name="operacion2"> Primos y y M.C.M <br>
 
-                <br>
-                <b>Operación:</b> <br>
-                <input type="checkbox" name="operacion1"> M.C.D y el más grande <br>
-                <input type="checkbox" name="operacion2"> Primos y y M.C.M <br>
-
-                <br>
-                <input type="submit" value="Enviar">
-            </form>
-        </center>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
     </body>
 </html>
