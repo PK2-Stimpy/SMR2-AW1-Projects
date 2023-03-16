@@ -92,7 +92,7 @@
                 $primo = true;
                 $num++;
 
-                for($i = $primos[0]; $i <= count($primos); $i++)
+                for($i = 0; $i <= count($primos); $i++)
                     if($num % $primos[$i] == 0)
                         $primo = false;
                 if($primo) {
