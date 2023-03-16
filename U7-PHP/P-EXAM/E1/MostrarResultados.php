@@ -82,23 +82,43 @@
             printf("<p>El número más grande de entre los números $x1 y $x2 es: $max</p>");
 
             // Casi se me olvida, los números primos xddddd
+            // Definimos una lista donde van a estar los primos.
             $primos = array(2);
+            // Obtenemos el último número de la lista, el cual
+            //  será el número inicial.
             $num = $primos[count($primos)-1];
             
+            // Siempre que el último número primo sea menor al
+            //  máximo.
             while($primos[count($primos)-1] < $max) {
+                // Defino la longitud de la variable de primos.
                 $countPrimos = count($primos);
+                // Esta variable la voy a usar para saber si
+                //  es primo o no más adelante.
                 $primo = true;
+                // En cada ciclo sumo 1 número.
                 $num++;
 
+                // Recorro todos los números primos que se hayan
+                //  encontrado.
                 for($i = 0; $i < count($primos); $i++)
+                    // Si el resto es 0 no es primo, puesto que
+                    //  es divisible.
                     if($num % $primos[$i] == 0)
                         $primo = false;
+                // Si el número resulta ser primo, lo añadimos
+                //  a la lista 'primos'.
                 if($primo)
                     $primos[$countPrimos] = $num;
             }
 
             echo "<p>Primos a partir de $mcd hasta $max:</p>";
+            // Recorremos todos los elementos de la lista de
+            //  'primos'.
             foreach ($primos as $primo) {
+                // Si el número primo está entre el mcd y
+                //  el número máximo, lo escribimos por la
+                //  pantalla.
                 if($primo >= $mcd && $primo <= $max)
                     echo "<p>- $primo</p>";
             }
