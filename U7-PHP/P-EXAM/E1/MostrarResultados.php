@@ -1,3 +1,9 @@
+<!--
+    ESTE ARCHIVO DEBE COLOCARSE EN LA MISMA
+        CARPETA QUE EL ARCHIVO:
+            - 'numeros.html'
+-->
+
 <html>
     <head>
         <title>Ejercicio 1</title>
